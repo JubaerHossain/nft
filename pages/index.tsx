@@ -1,15 +1,14 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-
+import Layout from "../components/Layout";
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>React redux next with typescript</title>
       </Head>
-      <div className={styles.content}>
-        <h1>Hello React redux next with typescript</h1>
-      </div>
+      <Layout>
+        <h1>Hello Next.js with typescript</h1>
+      </Layout>
     </div>
   );
 }

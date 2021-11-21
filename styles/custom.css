@@ -1,0 +1,61 @@
+/* All Colors  */
+
+:root {
+  --light: #ffffff;
+  --dark-blue: #021127;
+  --lightest-slate: #ededed;
+  --dark-slate: #77748b;
+  --light-slate: #c7c6c6;
+  --darkest-slate: #293546;
+  --font-slate: #a5a5a5;
+  --dark: #080b12;
+  --navy-blue: #03bbd4;
+  --mid-navy-blue: ##1cbbec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  background-color: var(--dark);
+  color: var(--font-slate);
+  box-sizing: border-box;
+}
+
+.header-section {
+  background-color: var(--dark-blue);
+}
+
+.top-header-right {
+  float: right;
+}
+
+.top-header-right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-header-right ul li a {
+  text-decoration: none;
+}
+
+.top-header-right ul button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  display: flex;
+}
+
+.top-header-right ul button.subscribe {
+  color: #fff;
+  border: 1px solid #29f571;
+  padding: 0 10px;
+  border-radius: 20px;
+}
